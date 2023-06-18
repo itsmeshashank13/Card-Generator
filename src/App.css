@@ -1,0 +1,105 @@
+
+body {
+  background-image: linear-gradient(to bottom right, #451A4E 20%, #3C0D0D, #16041F, #380C4A, #360e44, #240D37, #271F4F, #2B2D59);
+  background-repeat: no-repeat;
+  background-size: 30% 100%;
+  height: 100vh;
+  font-family: roboto;
+  overflow: hidden;
+}
+
+.formContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  min-width: 50%;
+}
+
+form label,
+form input {
+  margin-bottom: 8px;
+  border-radius: 10px;
+  border-color: #00000020;
+  letter-spacing: .15rem;
+}
+
+form input {
+  margin-bottom: 25px;
+}
+
+form label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+form input::placeholder {
+  font-size: 17px;
+  color: #999999;
+  padding-left: 15px;
+}
+
+form input:focus::placeholder {
+  font-size: 18px;
+  color: #666666;
+  font-style: normal;
+}
+
+input {
+  height: 3rem;
+}
+
+.dateInput {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 25px;
+}
+
+.space {
+  width: 5rem;
+}
+
+.formRow {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.formColumn {
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+}
+
+
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  color: aliceblue;
+  text-transform: uppercase;
+  background-color: #181717;
+  outline: 3px #181717 solid;
+  outline-offset: -3px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+  height: 4rem;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: black;
+}

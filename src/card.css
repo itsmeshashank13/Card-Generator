@@ -1,0 +1,53 @@
+
+.cardContainer {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+  
+.img {
+  width: 250px;
+  height: 330px;
+}
+
+.dot{
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+
+.cardNo {
+  position: absolute;
+  color: white;
+  font-size: 28px;
+  top: 20%;
+  left: 7%;
+  letter-spacing: 0.4rem;
+  font-weight: 200;
+}
+
+.pTag {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 30%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+}
+
+#name {
+  margin-left: 2.2rem;
+  margin-right: 15.7rem;
+}
+
+#cvv {
+  position: absolute;
+  color: white;
+  letter-spacing: 0.2rem;
+  top: 60.5%;
+  left: 98%;
+}
